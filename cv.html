@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="css/estilocv.css" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <script src="cv.js"></script>
+</head>
+<body>
+    <div style="max-width:1400px;">
+    <div class="header">
+        
+        <div class="foto">
+            <img src="https://media.licdn.com/dms/image/C4E03AQFfD0_afuGhRw/profile-displayphoto-shrink_200_200/0/1606834972106?e=1679529600&v=beta&t=F45-K5IGGsHC3-BAVKJEhocmszurY23owVFdX2NPqm0" alt="foto jorge soletta">
+            <p>Jorge H. Soletta</p>
+
+        </div>
+        <div class="perfil">
+            <h2>PERFIL</h2>
+            <P>Ingeniero Biomédico con un Doctorado en Ciencias Biológicas y 
+            amplios conocimientos en estadística y electrónica. Poseo experiencia
+            en Mantenimiento preventivo y correctivo de Equipos Médicos. Gestión de Inventarios </P>
+        </div>
+       
+    </div>
+    <div class="topnav">
+        <a href="#experiencia laboral">Experiencia Laboral</a>
+        <a href="#educación">Educación</a>
+        <a href="#antecedentes científicos">Antecedentes Cientificos</a>
+        <button class="button" onclick="funcionMostrar()">Videos</button>
+    </div>
+    <div id="myDIV" style="border:1px solid black; display:none;">
+        <video width="320" height="240" controls>
+            <source src="https://youtu.be/-gRLQvsrhAo">
+            
+          Your browser does not support the video tag.
+        </video>
+        <video width="320" height="240" controls>
+            <source src="https://youtu.be/nSSmOhVzsFY">
+          Your browser does not support the video tag.
+        </video>
+    </div>
+    /*
+    esto es un comentario
+    */
+    <div>
+        <div class="titulos"><h2>Contacto</h2></div>
+        Email: jorge.soletta@gmail.com
+        Cel: (0381) 155-977514
+        San Pedro de Jujuy
+    </div>
+    <div class="">
+        <div class="titulos" id="experiencia laboral"><h2>Experiencia Laboral</h2></div>
+        <table>
+        <tr> <td>De 05/2021 al presente</td> <td>MINISTERIO DE SALUD- JUJUY| Ingeniero Biomédico
+            Tareas realizadas:Gestión, Mantenimiento preventivo y correctivo de equipamiento médico</td></tr>
+        <tr><td>De 10/2016 a 8/2022</td><td>UNIVERSIDAD NACIONAL DE TUCUMÁN| Docente Tareas realizadas:
+            Docente en las materias Matemática II y Bioestadística</td></tr>
+        <tr><td>De 03/2019 a 08/2022</td> <td>UNIVERSIDAD TECNOLÓGICA NACIONAL-FRT| Docente Tareas realizadas:
+            Docente en la materia Álgebra y Geometría Analítica. Docente en la materia Matemática durante el curso de ingreso</td></tr>
+        <tr><td>De 04/2012 a 04/2020</td> <td>CONSEJO NACIONAL DE INVESTIGACIONES CIENTIFICAS Y TÉCNICAS | Becario Tareas realizadas:
+            Investigaciones científicas. Procesamiento de señales neuronales. Implementación de Modelos Computacionales</td></tr>
+        <tr><td>De 07/2011 a 03/2012</td> <td>SISTEMA PROVINCIAL DE SALUD- TUCUMÁN| Residente Tareas realizadas: Mantenimiento de equipos médicos</td></tr>
+        <tr><td>De 12/2011 a 03/2012</td> <td>SANATORIO ARGENTINO| Servicio de Ingeniería Tareas realizadas: Mantenimiento correctivo y preventivo de equipos médicos</td></tr>
+        <tr><td>De 12/2008 a 01/2009</td> <td>SANATORIO 9 DE JULIO| Pasante Tareas realizadas: Mantenimiento de equipamiento médico.</td></tr>
+        </table>
+        <hr>
+    </div>
+    <div>
+        <div class="titulos" id="educación"><h2>Educación</h2></div>
+        <table>
+            <tr><td>2012- 2017</td> <td>Título: Doctor en Ciencias Biológicas Universidad Nacional de Tucumán</td></tr>
+            <tr><td>2002- 2009</td> <td>Título: Ingeniero Biomédico Universidad Nacional de Tucumán</td></tr>
+            <tr><td>2013- presente</td> <td>Título Magister en Estadística Aplicada Universidad Nacional de Tucumán</td></tr>
+        </table>
+        <hr>
+    </div>
+    <div>
+        <div class="titulos"><h2>Logros</h2></div>
+        <ul>
+            <li>8  Publicaciones en Revistas Científicas Área: Procesamiento y Modelado Computacional de Señales Neuronales</li>
+            <li>8  Publicaciones en Revistas Científicas Área: Procesamiento y Modelado Computacional de Señales Neuronales</li>
+            <li>4  Libros publicados para carrera de grado. Libros con registro ISBN, sobre Introducción al Calculo Integral y al Álgebra</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div>
+        <div class="titulos"><h2>Últimos Cursos tomados</h2></div>
+        <ul>
+            <li>Curso práctico de Big Data con Hadoop y Spark desde cero, Modalidad Virtual, duración 4,5 hs. Udemy. Noviembre 2022</li>
+            <li>Curso completo de Machine Learning: Data Science en Python, Modalidad Virtual, duración 48 hs. Udemy. Noviembre 2022</li>
+            <li>Master SQL Server, Modalidad Virtual, duración 16 hs. Udemy. Marzo 2022</li>
+            <li>PEDAGOGIA CRITICA Y DIDACTICA EN LA ENSEÑANZA VIRTUAL. APORTES AL TRABAJO EN DOCENCIA UNIVERSITARIA. 
+                Modalidad Virtual, duración 60 Hs. Dictado por: Instituto Nacional de Formación Docente. Año: 2020</li>
+        </ul>
+        <hr>
+    </div>
+    <div class="outer">
+        <div class="titulos" id="antecedentes científicos"><h2>Antecedentes Cientificos</h2></div>
+        <p>Publicaciones en Revistas Científicas con Referato</p>
+        <ul>
+            <li>Soletta JH, Farfán FD and Felice CJ (2015). Measuring Spike Train Correlation with Non- Parametric Statistics Coefficient. 
+                IEEE Latin America Transactions. Vol 13, issue 12</li>
+            <li>G. Pizá, F. D. Farfán, A. L. Abarracín, F. A. Lucianna, J. H. Soletta, C. J. Felice. (2015). A simplified empirical modeling 
+                of electrophysiological activity in a bundle of myelinated nerve fibers. IEEE LatinAmericaTransactions. Vol 14, issue 7 </li>
+            <li>Farfán FD, Soletta JH, Ruiz GA and Felice CJ (2016) Recognition of movements through dynamic electromyographic signals. 
+                International Journal of Engineering Research & Technology (IJERT), vol 5, issue 2</li>
+            <li>J. H Soletta; F. D. Farfán; Ana L. Albarracín; C. J. Felice (2016) Linear Decoder Analysis Applied to Multineuronal 
+                Records of Retinal Ganglion Cells. International Journal of Engineering Research & Technology (IJERT); vol. 5 issue 5 p. 401 - 404</li>
+            <li>Jorge H Soletta, Fernando D Farfán, Ana L Albarracín, Alvaro G Piza, Facundo A Lucianna and Carmelo J Felice (2017). Identification
+                of functional interconnected neurons using factor analysis. Computational Intelligence and Neuroscience</li>
+            <li>J. H. Soletta, A. G. Pizá, F. A. Lucianna, A. L. Albarracín, F. D. Farfán (2018). Coding Model of Visual Stimuli in the Optic Nerve.
+                IEEE Latin America Transactions, Vol. 16, issue. 7.</li>
+            <li>F.D. Farfan, C. Soto-Sanchez, A.G. Pizá, A.L. Albarracín, J.H. Soletta, F.A. Lucianna, E. Fernandez (2019). Comparative study of 
+                extracellular recording methods for analysis of afferent sensory information: empirical modeling, data analysis and interpretation. 
+                Journal of Neuroscience Methods (2019), https://doi.org/10.1016/j.jneumeth.2019.03.004.</li>
+            <li>Gerardo L. Padilla, Jorge H. Soletta and Fernando D. Farfán. Steady State Visually Evoked Potential: Cortical Frequency Response in
+                Healthy Subjects.  REVISTA ARGENTINA DE BIOINGENIERÍA, VOL. 23 (3), 2020.</li>
+        </ul>
+        <p>Participación en Proyectos</p>
+        <ul>
+            <li>PICT 2012- 2014.Título del proyecto: Desde las Neurociencias al Desarrollo Tecnológico: Dispositivo de Reconocimiento Táctil de Superficies
+                Bioinspirado en el Sistema Vibrisal de la Rata. Titular del proyecto: Farfán, Fernando Daniel. Función Desempeñada: Becario.</li>
+            <li>CIUNT 2013-2015. Título del proyecto: Caracterización electrofisiológica y conductual de un modelo de enfermedad de Parkinson: Efectos del 
+                curso temporal de la enfermedad y de la administración sistemática de dopamina. Titular del proyecto: Ruiz, Gabriel Alfredo. Función Desempeñada:
+                Becario- Tesista.</li>
+            <li>PIUNT 2018-2022.  Título del proyecto: Biomimética del Procesamiento Neuronal: Código Neuronal, Neurociencia Computacional e Implementación Microelectrónica 
+                De Sistemas Y Procesos Neuronales. Titular del proyecto: Farfán, Fernando Daniel. Función desempeñada: Investigador.</li>
+        </ul>
+        <p>Trabajos Aceptados En Congresos (últimos 5 años)</p>
+        <ul>
+            <li>Soletta, Jorge H.; Panico, Adriana F.(2019). Identificación De Clases Latentes En Neuronas De Corteza Cerebral. XLVII Coloquio Argentino de Estadística, llevado 
+                a cabo los días 16, 17 y 18 de octubre de 2019 en la Facultad de Ciencias Económicas, Universidad Nacional de Tucumán. San Miguel de Tucumán – Tucumán</li>
+            <li>Albarracín, Ana Lía - Teruya, Pablo Y. - Pizá, Alvaro G. - Lucianna, Facundo A. - Soletta, Jorge H. (2019) Biomarcadores musculares en un modelo animal de 
+                Enfermedad de Parkinson: análisis de señales y modelo tecnológico/terapéutico. XIV JORNADAS DE CIENCIA Y TECNOLOGÍA DE FACULTADES DE INGENIERIA DEL NOA realizadas 
+                el 5 y 6 de Septiembre de 2019, en la ciudad de S.M. de Tucumán</li>
+            <li>Cano, Leonardo A. - Pizá, Alvaro G. - Lucianna, Facundo A. - Soletta, Jorge H. - Farfán, Fernando D. (2019) Variables neuromusculares y patrones espacio- temporales 
+                en señales corticales relacionafas a lesiones musculo-esqueléticas. XIV JORNADAS DE CIENCIA Y TECNOLOGÍA DE FACULTADES DE INGENIERIA DEL NOA realizadas el 5 y 6 de Septiembre 
+                de 2019, en la ciudad de S.M. de Tucumán.</li>
+            <li>Soletta, Jorge Humberto - Lucianna, Facundo A. - Piza, Alvaro G. - Cano, Leonardo A - Farfán, Fernando D- Albarracín, Ana L., (2019). Modelo de Desarrollo del Sistema Visual.
+                XIV JORNADAS DE CIENCIA Y TECNOLOGÍA DE FACULTADES DE INGENIERIA DEL NOA realizadas el 5 y 6 de Septiembre de 2019, en la ciudad de S.M. de Tucumán.</li>
+            <li>Jorge H. Soletta, Álvaro G. Piza, Fernando D. Farfán, Ana L Albarracín, Facundo A. Lucianna, Juan C. Soria (2017). Modelo de Codificación Neural en Nervio Óptico. XXI Congreso 
+                Argentino de Bioingeniería- SABI 2017. 25 al 27 de octubre de 2017, Ciudad: Cordoba, Argentina</li>
+            <li>Jorge H. Soletta (2017). Registros electrofisiológicos en el nervio óptico y su relación con los estímulos visuales. Taller Latinoamericano de Ciencias de la Visión, in VisionT, 
+                Tucumán, Argentina, 19 y 20 de Octubre de 2017.</li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
